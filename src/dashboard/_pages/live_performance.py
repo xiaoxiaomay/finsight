@@ -203,8 +203,9 @@ def render() -> None:
         name="Benchmark (SPY)",
     ))
     # Vertical line at live start
+    live_start_str = data["live_start"].isoformat()
     fig_eq.add_vline(
-        x=data["live_start"],
+        x=live_start_str,
         line_dash="dash",
         line_color="#ffa726",
         annotation_text="Live Start",
@@ -371,7 +372,7 @@ def render() -> None:
             name="Drawdown",
         ))
         fig_dd.add_vline(
-            x=data["live_start"],
+            x=data["live_start"].isoformat(),
             line_dash="dash",
             line_color="#ffa726",
             annotation_text="Live Start",
@@ -410,7 +411,7 @@ def render() -> None:
     fig_rs.add_hline(y=1.0, line_dash="dot", line_color="#ffa726",
                      annotation_text="Sharpe = 1.0")
     fig_rs.add_vline(
-        x=data["live_start"],
+        x=data["live_start"].isoformat(),
         line_dash="dash",
         line_color="#ffa726",
         annotation_text="Live Start",

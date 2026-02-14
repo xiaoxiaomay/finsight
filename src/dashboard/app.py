@@ -99,22 +99,22 @@ def main() -> None:
     page_key = PAGES[page]
 
     if page_key == "live_performance":
-        from src.dashboard.pages.live_performance import render
+        from src.dashboard._pages.live_performance import render
         render()
     elif page_key == "portfolio":
-        from src.dashboard.pages.portfolio import render
+        from src.dashboard._pages.portfolio import render
         render()
     elif page_key == "research":
-        from src.dashboard.pages.research import render
+        from src.dashboard._pages.research import render
         render()
     elif page_key == "backtest_lab":
-        from src.dashboard.pages.backtest_lab import render
+        from src.dashboard._pages.backtest_lab import render
         render()
     elif page_key == "risk":
-        from src.dashboard.pages.risk import render
+        from src.dashboard._pages.risk import render
         render()
     elif page_key == "data_explorer":
-        from src.dashboard.pages.data_explorer import render
+        from src.dashboard._pages.data_explorer import render
         render()
 
 

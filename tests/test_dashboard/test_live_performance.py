@@ -3,7 +3,7 @@
 import numpy as np
 import pandas as pd
 
-from src.dashboard.pages.live_performance import _calc_metrics, _generate_live_data
+from src.dashboard._pages.live_performance import _calc_metrics, _generate_live_data
 
 
 class TestGenerateLiveData:
