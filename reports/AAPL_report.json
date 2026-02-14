@@ -1,0 +1,285 @@
+{
+  "symbol": "AAPL",
+  "recommendation": "Buy",
+  "conviction": "medium",
+  "composite_score": 71.1,
+  "fundamental_score": 82.5,
+  "quant_score": 76.0,
+  "sentiment_score": 67.5,
+  "macro_score": 65.0,
+  "peer_score": 33.333333333333336,
+  "earnings_analysis": {
+    "symbol": "AAPL",
+    "analysis_date": "2026-02-13",
+    "revenue_trend": "accelerating",
+    "revenue_growth_yoy": 0.08,
+    "revenue_surprise_pct": 0.015,
+    "margin_trend": "expanding",
+    "gross_margin": 0.466,
+    "operating_margin": 0.305,
+    "net_margin": 0.262,
+    "margin_expansion": true,
+    "fcf_yield": 0.035,
+    "cash_conversion": 1.05,
+    "capex_trend": "stable",
+    "debt_to_equity": 1.76,
+    "current_ratio": 1.07,
+    "balance_sheet_quality": "strong",
+    "key_guidance_points": [
+      "Management expects continued services growth",
+      "Raised capital return program"
+    ],
+    "risk_factors_highlighted": [
+      "China market uncertainty",
+      "EU regulatory scrutiny"
+    ],
+    "management_tone": "confident",
+    "fundamental_score": 82.5,
+    "investment_thesis": "AAPL demonstrates strong earnings quality with expanding margins driven by services mix shift. Robust cash generation supports buybacks.",
+    "key_risks": [
+      "China revenue decline",
+      "Antitrust regulation"
+    ],
+    "catalysts": [
+      "AI product launch",
+      "Services monetization"
+    ],
+    "sources_used": [
+      "10-K MD&A",
+      "10-K Risk Factors"
+    ],
+    "confidence_level": "high"
+  },
+  "macro_assessment": {
+    "assessment_date": "2026-02-13",
+    "cycle_phase": "expansion",
+    "cycle_confidence": 0.72,
+    "gdp_growth_trend": "stable",
+    "inflation_trend": "falling",
+    "employment_trend": "strengthening",
+    "yield_curve_status": "normal",
+    "fed_policy_stance": "neutral",
+    "rate_direction": "pausing",
+    "equity_outlook": "bullish",
+    "sector_preferences": [
+      "Technology",
+      "Healthcare",
+      "Consumer Discretionary"
+    ],
+    "risk_factors": [
+      "Geopolitical tensions",
+      "Commercial real estate weakness"
+    ],
+    "suggested_equity_allocation": 0.65,
+    "defensive_tilt": false,
+    "reasoning": "Economy in mid-cycle expansion with moderating inflation. The Fed is likely to begin cutting rates, supporting equities."
+  },
+  "news_sentiment": {
+    "symbol": "AAPL",
+    "analysis_date": "2026-02-13",
+    "articles_analyzed": 15,
+    "overall_sentiment": 0.35,
+    "sentiment_label": "positive",
+    "key_themes": [
+      "Strong quarterly earnings",
+      "AI product strategy",
+      "Regulatory headwinds"
+    ],
+    "notable_articles": [
+      {
+        "title": "AAPL Reports Record Revenue",
+        "source": "Reuters",
+        "published_at": "2026-02-13",
+        "sentiment_score": 0.8,
+        "relevance_score": 0.95
+      },
+      {
+        "title": "Analysts Raise AAPL Price Targets",
+        "source": "Bloomberg",
+        "published_at": "2026-02-13",
+        "sentiment_score": 0.6,
+        "relevance_score": 0.9
+      }
+    ],
+    "sentiment_trend": "improving",
+    "market_impact_assessment": "Net positive sentiment driven by strong earnings and AI strategy. Regulatory concerns partially offset.",
+    "confidence_level": "high"
+  },
+  "quant_signals": {
+    "symbol": "AAPL",
+    "analysis_date": "2026-02-13",
+    "factor_scores": [
+      {
+        "factor_name": "momentum_12_1",
+        "z_score": 1.2,
+        "percentile": 85
+      },
+      {
+        "factor_name": "earnings_yield",
+        "z_score": 0.8,
+        "percentile": 72
+      },
+      {
+        "factor_name": "roe",
+        "z_score": 1.5,
+        "percentile": 90
+      },
+      {
+        "factor_name": "gross_profitability",
+        "z_score": 1.1,
+        "percentile": 82
+      },
+      {
+        "factor_name": "volatility_60d",
+        "z_score": -0.3,
+        "percentile": 42
+      },
+      {
+        "factor_name": "book_to_market",
+        "z_score": -0.5,
+        "percentile": 35
+      },
+      {
+        "factor_name": "ev_ebitda",
+        "z_score": -0.2,
+        "percentile": 44
+      },
+      {
+        "factor_name": "accruals",
+        "z_score": 0.6,
+        "percentile": 68
+      },
+      {
+        "factor_name": "asset_growth",
+        "z_score": 0.1,
+        "percentile": 52
+      },
+      {
+        "factor_name": "short_term_reversal",
+        "z_score": -0.4,
+        "percentile": 38
+      }
+    ],
+    "composite_score": 0.72,
+    "composite_percentile": 76.0,
+    "signal_direction": "long",
+    "signal_strength": 0.65,
+    "strongest_factors": [
+      "roe",
+      "momentum_12_1",
+      "gross_profitability"
+    ],
+    "weakest_factors": [
+      "book_to_market",
+      "short_term_reversal",
+      "volatility_60d"
+    ],
+    "sector": "Technology",
+    "confidence_level": "high"
+  },
+  "peer_comparison": {
+    "symbol": "AAPL",
+    "analysis_date": "2026-02-13",
+    "sector": "Technology",
+    "industry": "Consumer Electronics",
+    "target_metrics": {
+      "symbol": "AAPL",
+      "pe_ratio": 30.5,
+      "pb_ratio": 45.2,
+      "ev_ebitda": 24.1,
+      "roe": 0.16,
+      "gross_margin": 0.466,
+      "operating_margin": 0.305,
+      "revenue_growth_yoy": 0.08
+    },
+    "peers": [
+      {
+        "symbol": "MSFT",
+        "pe_ratio": 35.2,
+        "pb_ratio": 12.8,
+        "ev_ebitda": 27.3,
+        "roe": 0.39,
+        "gross_margin": 0.695,
+        "operating_margin": 0.448,
+        "revenue_growth_yoy": 0.16
+      },
+      {
+        "symbol": "GOOGL",
+        "pe_ratio": 24.1,
+        "pb_ratio": 6.5,
+        "ev_ebitda": 16.8,
+        "roe": 0.28,
+        "gross_margin": 0.574,
+        "operating_margin": 0.302,
+        "revenue_growth_yoy": 0.11
+      },
+      {
+        "symbol": "NVDA",
+        "pe_ratio": 65.0,
+        "pb_ratio": 42.1,
+        "ev_ebitda": 55.2,
+        "roe": 0.86,
+        "gross_margin": 0.735,
+        "operating_margin": 0.62,
+        "revenue_growth_yoy": 1.22
+      }
+    ],
+    "peer_count": 3,
+    "pe_vs_peers": "discount",
+    "pb_vs_peers": "premium",
+    "ev_ebitda_vs_peers": "in_line",
+    "valuation_summary": "AAPL trades at a modest P/E discount to mega-cap tech peers, though at a premium on P/B due to aggressive share buybacks.",
+    "profitability_rank": 3,
+    "growth_rank": 3,
+    "overall_rank": 3,
+    "competitive_advantages": [
+      "Brand loyalty",
+      "Ecosystem lock-in",
+      "Services margins"
+    ],
+    "competitive_weaknesses": [
+      "Lower growth vs peers",
+      "Hardware dependency"
+    ],
+    "peer_comparison_summary": "AAPL is well-positioned within the tech sector with strong profitability but trails peers on growth metrics.",
+    "confidence_level": "high"
+  },
+  "conflicts": [],
+  "agents_used": [
+    "earnings",
+    "macro",
+    "news",
+    "quant_signal",
+    "peer"
+  ],
+  "data_sources": [
+    "10-K MD&A",
+    "10-K Risk Factors",
+    "SEC EDGAR Filings",
+    "Federal Reserve Economic Data (FRED)",
+    "NewsAPI",
+    "Factor Signal Database"
+  ],
+  "key_risks": [
+    "China revenue decline",
+    "Antitrust regulation"
+  ],
+  "catalysts": [
+    "AI product launch",
+    "Services monetization"
+  ],
+  "bull_case": [
+    "AAPL demonstrates strong earnings quality with expanding margins driven by services mix shift. Robust cash generation supports buybacks.",
+    "Strong factor exposure: roe, momentum_12_1, gross_profitability",
+    "Positive news sentiment (positive)",
+    "AI product launch",
+    "Services monetization"
+  ],
+  "bear_case": [
+    "China revenue decline",
+    "Antitrust regulation"
+  ],
+  "market_regime": "",
+  "regime_factor_tilt": "",
+  "company_name": "Apple Inc."
+}
