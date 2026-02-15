@@ -287,11 +287,19 @@ def main() -> None:
         """, {"start": str(start), "end": str(end)})
 
         prices = prepare_price_matrix(market_df)
+        # PostgreSQL NUMERIC columns return decimal.Decimal; convert to float
+        prices = prices.apply(pd.to_numeric, errors="coerce").astype(float)
 
         fund_df = execute_query(sync_engine, """
             SELECT * FROM fundamentals ORDER BY filing_date
         """)
-        fundamentals = fund_df if not fund_df.empty else None
+        if not fund_df.empty:
+            num_cols = fund_df.select_dtypes(include=["object", "number"]).columns
+            for col in num_cols:
+                fund_df[col] = pd.to_numeric(fund_df[col], errors="coerce")
+            fundamentals = fund_df
+        else:
+            fundamentals = None
     else:
         print("Using synthetic data (pass --use-db for real data)...")
         prices, fundamentals = generate_sample_data()
